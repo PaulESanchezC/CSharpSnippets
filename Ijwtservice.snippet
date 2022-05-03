@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.0.0">
+	<Header>
+		<Title>Basic IJwt token generator</Title>
+		<Shortcut>Ijwtservice</Shortcut>
+		<Description>Scaffolds the interface for the IJwtService</Description>
+		<Author>Paul Sanchez</Author>
+		<SnippetTypes>
+			<SnippetType>Expansion</SnippetType>
+		</SnippetTypes>
+	</Header>
+	<Snippet>
+		<Code Language="csharp">
+			<![CDATA[
+public interface IJwtServices
+{
+    Task<string> GenerateTokenAsync();
+}			
+]]>
+		</Code>
+	</Snippet>
+</CodeSnippet>
