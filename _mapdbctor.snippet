@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>_mapdbctor</Title>
+			<Shortcut>_mapdbctor</Shortcut>
+			<Description>Code snippet for constructor</Description>
+			<Author>Microsoft Corporation</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal Editable="false">
+					<ID>classname</ID>
+					<ToolTip>Class name</ToolTip>
+					<Function>ClassName()</Function>
+					<Default>ClassNamePlaceholder</Default>
+				</Literal>
+				<Literal>
+					<ID>type1</ID>
+					<ToolTip>ApplicationDbContext</ToolTip>
+					<Default>ApplicationDbContext</Default>
+				</Literal>
+				<Literal>
+					<ID>property1</ID>
+					<ToolTip>property</ToolTip>
+					<Default>_db</Default>
+				</Literal>
+				<Literal>
+					<ID>parameter1</ID>
+					<ToolTip>Constructor Parameter</ToolTip>
+					<Default>db</Default>
+				</Literal>
+
+				<Literal>
+					<ID>type2</ID>
+					<ToolTip>IMapper</ToolTip>
+					<Default>IMapper</Default>
+				</Literal>
+				<Literal>
+					<ID>property2</ID>
+					<ToolTip>property</ToolTip>
+					<Default>_mapper</Default>
+				</Literal>
+				<Literal>
+					<ID>parameter2</ID>
+					<ToolTip>Constructor Parameter</ToolTip>
+					<Default>mapper</Default>
+				</Literal>
+			</Declarations>
+
+			<Code Language="csharp">
+				<![CDATA[
+				private readonly $type1$ $property1$;
+				private readonly $type2$ $property2$;
+			public $classname$ ($type1$ $parameter$, $type2$ $parameter2$ )	
+			{
+				$property1$ = $parameter1$;
+				$property2$ = $parameter2$; $end$
+			}]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
