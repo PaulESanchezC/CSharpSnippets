@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippet Format="1.0.0">
+	<Header>
+		<Title>Unit Test Setup with mock field</Title>
+		<Shortcut>mockup</Shortcut>
+		<Description>Code snippet for a mock field and setup for unit test</Description>
+		<Author>Paul Sanchez</Author>
+		<SnippetTypes>
+			<SnippetType>Expansion</SnippetType>
+		</SnippetTypes>
+	</Header>
+	
+	<Snippet>
+		<Code Language="csharp">
+   <![CDATA[private Mock<$end$> _mock;
+			
+			[SetUp]
+			public void Setup()
+			{
+				_mock = new();
+			}]]>
+		</Code>
+	</Snippet>
+</CodeSnippet>

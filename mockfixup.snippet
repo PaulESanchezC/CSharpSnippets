@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippet Format="1.0.0">
+	<Header>
+		<Title>public unit Test method</Title>
+		<Shortcut>mockfixup</Shortcut>
+		<Description>Code snippet for a mock fixture field and setup for unit test</Description>
+		<Author>Paul Sanchez</Author>
+		<SnippetTypes>
+			<SnippetType>Expansion</SnippetType>
+		</SnippetTypes>
+	</Header>
+	
+	<Snippet>
+		<Code Language="csharp">
+   <![CDATA[private Mock<$end$> _mock;
+			private Fixture _fix;
+			
+			[SetUp]
+			public void Setup()
+			{
+				_mock = new();
+				_fix = new();
+			}]]>
+		</Code>
+	</Snippet>
+</CodeSnippet>

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <CodeSnippet Format="1.0.0">
 	<Header>
-		<Title>Api Get Endpoint</Title>
-		<Shortcut>GetAsync</Shortcut>
-		<Description>Code snippet for Creating a Api Get endpoint</Description>
+		<Title>Api Post Endpoint</Title>
+		<Shortcut>PostAsync</Shortcut>
+		<Description>Code snippet for Creating a Api Post endpoint</Description>
 		<Author>Paul Sanchez</Author>
 		<SnippetTypes>
 			<SnippetType>Expansion</SnippetType>
@@ -12,10 +12,11 @@
 	<Snippet>
 		<Code Language="csharp">
 			<![CDATA[
-		[HttpGet]
-		public async Task<IActionResult> Get(CancellationToken cancellationToken)
+		[HttpPost]
+		public async Task<IActionResult> Post([FromBody] $end$, CancellationToken cancellationToken)
         {
-			var request = await _$end$
+			if(!ModelState.IsValid) return BadRequest(ModelState);
+			var request = await _.CreateAsync()
             return StatusCode(request.StatusCode,request);
         }]]>
 		</Code>
