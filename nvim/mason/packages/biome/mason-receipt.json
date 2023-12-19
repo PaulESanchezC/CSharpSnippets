@@ -1,0 +1,1 @@
+{"metrics":{"start_time":1702988224990,"completion_time":1702988232793},"links":{"bin":{"biome.cmd":"node_modules\\.bin\\biome.cmd"},"share":{"mason-schemas\\lsp\\biome.json":"mason-schemas\\lsp.json"},"opt":{}},"secondary_sources":[],"schema_version":"1.1","primary_source":{"id":"pkg:npm\/%40biomejs\/biome@1.4.1","type":"registry+v1"},"name":"biome"}

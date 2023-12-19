@@ -1,0 +1,38 @@
+!_TAG_FILE_ENCODING	utf-8	//
+cmp-path-cmp-path	cmp-path.md	/# cmp-path
+cmp-path-configuration	cmp-path.md	/## Configuration
+cmp-path-get-cwd-type-function	cmp-path.md	/### get_cwd (type: function)
+cmp-path-label-trailing-slash-type-boolean	cmp-path.md	/### label_trailing_slash (type: boolean)
+cmp-path-setup	cmp-path.md	/# Setup
+cmp-path-trailing-slash-type-boolean	cmp-path.md	/### trailing_slash (type: boolean)
+cmp_luasnip-cmp-luasnip	cmp_luasnip.md	/# cmp_luasnip
+friendly-snippets-add-snippets-from-a-framework-to-a-filetype	friendly-snippets.md	/## Add snippets from a framework to a filetype.
+friendly-snippets-credits	friendly-snippets.md	/## Credits
+friendly-snippets-excluding-snippets	friendly-snippets.md	/## Excluding snippets
+friendly-snippets-friendly-snippets	friendly-snippets.md	/# Friendly Snippets
+friendly-snippets-html	friendly-snippets.md	/### HTML
+friendly-snippets-install	friendly-snippets.md	/## Install
+friendly-snippets-js	friendly-snippets.md	/### JS
+friendly-snippets-showcase	friendly-snippets.md	/## Showcase
+friendly-snippets-thanks-to-all-contributors	friendly-snippets.md	/## Thanks to all contributors
+friendly-snippets-todo	friendly-snippets.md	/## TODO
+friendly-snippets-usage	friendly-snippets.md	/## Usage
+friendly-snippets-with-coc-nvim	friendly-snippets.md	/### With coc.nvim
+friendly-snippets-with-lazy-nvim	friendly-snippets.md	/### With Lazy.nvim
+friendly-snippets-with-packer	friendly-snippets.md	/### With Packer
+friendly-snippets-with-vim-plug	friendly-snippets.md	/### With vim-plug
+onedark.nvim-change-default-style	onedark.nvim.md	/### Change default style
+onedark.nvim-configuration	onedark.nvim.md	/## Configuration
+onedark.nvim-contributing	onedark.nvim.md	/## Contributing
+onedark.nvim-customization	onedark.nvim.md	/## Customization
+onedark.nvim-default-configuration	onedark.nvim.md	/## Default Configuration
+onedark.nvim-enable-lualine	onedark.nvim.md	/### Enable lualine
+onedark.nvim-enable-theme	onedark.nvim.md	/### Enable theme
+onedark.nvim-features	onedark.nvim.md	/### Features
+onedark.nvim-installation	onedark.nvim.md	/## Installation
+onedark.nvim-license	onedark.nvim.md	/## License
+onedark.nvim-plugins-configuration	onedark.nvim.md	/## Plugins Configuration
+onedark.nvim-plugins-supported	onedark.nvim.md	/## Plugins Supported
+onedark.nvim-reference	onedark.nvim.md	/## Reference
+onedark.nvim-themes	onedark.nvim.md	/## Themes
+onedark.nvim-vimscript-configuration	onedark.nvim.md	/### Vimscript configuration

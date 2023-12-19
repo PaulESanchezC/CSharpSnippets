@@ -1,0 +1,9 @@
+[START][2023-12-19 07:06:39] LSP logging initiated
+[ERROR][2023-12-19 07:06:39] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Paulyglot\\AppData\\Local\\nvim-data\\mason\\bin\\golangci-lint-langserver.CMD"	"stderr"	"golangci-lint-langserver: connections opened\n"
+[START][2023-12-19 07:08:19] LSP logging initiated
+[ERROR][2023-12-19 07:08:19] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Paulyglot\\AppData\\Local\\nvim-data\\mason\\bin\\golangci-lint-langserver.CMD"	"stderr"	"golangci-lint-langserver: connections opened\n"
+[WARN][2023-12-19 07:14:37] .../lua/vim/lsp.lua:101	"method textDocument/signatureHelp is not supported by any of the servers registered for the current buffer"
+[START][2023-12-19 07:17:42] LSP logging initiated
+[WARN][2023-12-19 07:17:42] ...lsp/handlers.lua:137	"The language server biome triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2023-12-19 07:30:20] LSP logging initiated
+[ERROR][2023-12-19 07:30:20] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Paulyglot\\AppData\\Local\\nvim-data\\mason\\bin\\golangci-lint-langserver.CMD"	"stderr"	"golangci-lint-langserver: connections opened\n"
